@@ -1,0 +1,108 @@
+body{
+    background-color: #161a1d;
+    background-image: url("clubsbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;        /* makes image cover full area */
+  /* background-position: center; */
+}
+.navbar{
+    /* position: fixed;   */
+    top: 0;            /* aligns it at the very top */
+    left: 0;
+    width: 100%;       /* make it span the whole width */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px 20px; */
+    /* z-index: 1000;      */
+}
+.nav-links li{
+    text-decoration: none;
+    display:inline-block;
+    margin-right:4rem;
+    margin-top:0;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    font-size:1.5rem;
+    justify-content: center;
+}
+.nav-links a:hover{
+    color:yellow;
+}
+.heading{
+    font-weight:bold;
+    font-size:2rem;
+    display:flex;
+    position: left;
+    margin:0;
+}
+.heading a{
+    text-decoration: none;
+    color:white;
+    margin-left:13px;
+}
+.heading:hover{
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+    font-size: 3rem;
+    color:white;
+    font-weight: bold;
+}
+.clubs-info{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    /* border:2px solid white; */
+    margin:40px;
+}
+.clip{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;;
+    transition: 0.2s ease-in-out;
+}
+.clip:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    transform:scale(1.05);
+}
+.desc{
+    text-align:justify;
+    color:white;
+    color:#e5e5e5;
+    margin:25px;
+    
+}
+.t1{
+    text-align:center;
+    color:white;
+}
+.logo{
+    display:block;
+    margin: 0 auto;
+    padding:10px;
+    height:20vh;
+    width:40%;
+}
+.link{
+    display:block;
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.logo-ieee{
+    display:block;
+    margin: 0 auto;
+    padding:10px;
+    height:20vh;
+    width:60%;
+}

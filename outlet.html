@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Outlets</title>
+        <link rel="stylesheet" href="outlet.css">
+    </head>
+    <body>
+        <section class="navbar">
+            <h1 class="heading"><a href="Homepage.html">TestSite</a></h1>
+            <ul class="nav-links">
+                <li><a href="">Map</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="login-container">
+            <!-- <button class="login-bt">Log In</button> -->
+            </div>
+        </section>
+        <h1 class="side-title">Featuring</h1>
+        <div class="side-note">
+            <div class="list">
+            <h2 class="popu">Popular 🔥</h2>
+            <ul>
+                <li>Loaded Chicken Sandwich (Lets Go Live)</li>
+                <li>C4 Margherita Pizza (Dialog)</li>
+                <li>Afghani Chaap (Italian Oven)</li>
+            </ul>
+            </div>
+            <div class="list">
+                <h2 class="vm">Value for Money 💵</h2>
+                <ul>
+                    <li>Amritsari Chole Kulcha (Zaika)</li>
+                    <li>Onion Feast (Havmor)</li>
+                    <li>Veg Sandwhich (Dev Sweets)</li>
+                </ul>
+                </div>
+                <div class="list">
+                    <h2 class="vm">Underrated 💎 </h2>
+                    <ul>
+                        <li>Amritsari Chole Kulcha (Zaika)</li>
+                        <li>Onion Feast (Havmor)</li>
+                        <li>Veg Sandwhich (Dev Sweets)</li>
+                    </ul>
+                    </div>
+        </div>
+        <button class="opinion">Give us your opinion</button>
+            <div class="p1">
+                <h1 class="name">Outlets in MUJ</h1>
+        <section class="outlet-name">
+            <div class="overlay"></div>
+            <div class="chatkara">
+                <img src="chatkara-logo.jpeg" alt="Chatkara Logo" class="logo" onclick="openMenu('chatkara')">
+                <h2 class="title">Chatkara</h2>
+                <div class="slides">
+                <img src="chatkara-menu-1.jpeg"  class="slide">
+                <img src="chatkara-menu-2.jpeg"  class="slide">
+                <img src="chatkara-menu-3.jpeg"  class="slide">
+                </div>
+             </div>
+                <div class="dialog">
+                    <img src="dialog-logo.jpeg" alt="Dialog Logo" class="logo" onclick="openMenu('dialog')">
+                    <h2 class="title">Dialog</h2>
+                    <div class="slides">
+                    <img src="dialog-menu-1.jpeg"  class="slide">
+                    <img src="dialog-menu-2.jpeg"  class="slide">
+                    <img src="dialog-menu-3.jpeg"  class="slide">
+                    <img src="dialog-menu-4.jpeg"  class="slide">
+                    </div>
+                    </div>
+                    <div class="lgl">
+                        <img src="lgl-logo.jpeg" alt="Dialog Logo" class="logo" onclick="openMenu('lgl')">
+                        <h2 class="title">Lets Go Live</h2>
+                        <div class="slides">
+                        <img src="lgl-menu.jpeg"  class="slide">
+                        </div>
+                        </div>
+                        <div class="tt">
+                            <img src="tt-logo.jpeg" alt="Dialog Logo" class="logo" onclick="openMenu('tt')">
+                            <h2 class="title">Tea Tradition</h2>
+                            <div class="slides">
+                            <img src="tt-menu-1.jpeg"  class="slide">
+                            <img src="tt-menu-3.jpeg"  class="slide">
+                            </div>
+                            </div>
+                            <div class="stardom">
+                                <img src="stardom-logo.jpeg" alt="Dialog Logo" class="logo" onclick="openMenu('stardom')">
+                                <h2 class="title">Stardom</h2>
+                                <div class="slides">
+                                <img src="stardom-menu-1.jpeg"  class="slide">
+                                <img src="stardom-menu-2.jpeg"  class="slide">
+                                </div>
+                                </div>
+                                <div class="io">
+                                    <img src="io.logo.jpeg" alt="Dialog Logo" class="logo" onclick="openMenu('io')">
+                                    <h2 class="title">Italian Oven</h2>
+                                    <div class="slides">
+                                    <img src="io.menu-1.jpeg"  class="slide">
+                                    <img src="io-menu-2.jpeg"  class="slide">
+                                    </div>
+                                    </div>
+                                    <div class="tcc">
+                                        <img src="tcc.logo.jpeg" alt="Dialog Logo" class="logo" onclick="openMenu('tcc')">
+                                        <h2 class="title">The Crazy Chef</h2>
+                                        <div class="slides">
+                                        <img src="tcc.menu.jpeg"  class="slide">
+                                        </div>
+                                        </div>
+                                        <div class="dcc">
+                                            <img src="dss-logo.jpeg" alt="Dialog Logo" class="logo" onclick="openMenu('dcc')">
+                                            <h2 class="title">Dev Sweets and Snacks</h2>
+                                            <div class="slides">
+                                            <img src="dss-menu.jpeg"  class="slide">
+                                            </div>
+                                            </div>
+                            
+            <div id="lightbox">
+                <span class="close" onclick="closeMenu()">&times;</span>
+                <button class="prev" onclick="prevMenu()">&#10094;</button>
+                <img id="lightbox-img">
+                <button class="next" onclick="nextMenu()">&#10095;</button>
+              </div>
+        </section>
+        </div>
+        <script src="outlet.js" ></script>
+    </body>
+</html>

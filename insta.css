@@ -1,0 +1,103 @@
+
+body{
+    background-color: #161a1d;
+    background-image: url("outletbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;        /* makes image cover full area */
+  background-position: center;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top:10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    z-index: 10;
+  }
+  
+  .logo a{
+    font-size: 2rem;
+    margin-left:10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f8d210;
+  }
+  .title,.MUJ{
+    text-align: center;
+    color: #cbd5e1;
+    margin-top: 100px;
+    /* margin-right:80px; */
+    font-size: 2.5rem;
+    font-weight: 400;
+
+  }
+  .MUJ{
+     color:#f7b538;
+     font-weight:800;
+     margin-left:10px;
+  }
+  .clubs{
+    margin-top:30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 60vh;
+    width:85%;
+    border-radius: 20px;
+
+  }
+  .tabs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin:30px;
+    gap:0px
+  }
+  .t1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#ede0d4;
+    text-decoration: underline;
+  }
+  .list{
+    list-style-type: none;
+    padding:10px;
+  }
+  .list a{
+    text-decoration: none;
+    color:#cbd5e1;
+    font-size: 1.2rem;
+    list-style-type: none;
+
+  }
+  .list li{
+    margin-bottom:15px; 
+    transition:0.1s ease-in-out;
+    /* margin-left:5px; */
+    text-align: center;
+  }
+  .list li:hover,.list a:hover{
+    transform:scale(1.2);
+    /* text-decoration: underline; */
+    color:white;
+  }
